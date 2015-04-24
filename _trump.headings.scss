@@ -1,50 +1,62 @@
-// *************************************
+// =============================================================================
 //
-//   #HEADINGS
+// Name:          Headings
 //
-// *************************************
+// Description:   Greek-alphabet classes for double-stranded heading hierarchy.
+//
+// Blocks:        `u-alpha`
+//                `u-beta`
+//                `u-gamma`
+//                `u-delta`
+//                `u-epsilon`
+//                `u-zeta`
+//
+// Markup:
+//
+// <h3 class="u-alpha">...</h3>
+//
+// =============================================================================
 
-// Headings 1–6’s corresponding Greek-alphabet abstract classes for double-
-// stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
-//
-// Use these helper classes to cause other elements to adopt the styling of the
-// respective heading, e.g.:
-//
-// <h3 class="alpha">Title</h3>
 
-// Predefine the variables bellow in order to alter and enable specific features.
+
+
+
+// Variables
+// =============================================================================
+
+// Predefine the variables bellow in order to alter and enable specific
+// features.
+
 $tree-headings-namespace: $tree-namespace !default;
 
 
 
 
 
-.#{$tree-headings-namespace}alpha,
-%#{$tree-headings-namespace}alpha {
+// =============================================================================
+// Blocks: `u-[alpha|beta|gamma|delta|epsilon|zeta]`
+// =============================================================================
+
+.#{$tree-headings-namespace}alpha {
     @include tree-font-size($tree-heading-size-1);
 }
 
-.#{$tree-headings-namespace}beta,
-%#{$tree-headings-namespace}beta {
+.#{$tree-headings-namespace}beta {
     @include tree-font-size($tree-heading-size-2);
 }
 
-.#{$tree-headings-namespace}gamma,
-%#{$tree-headings-namespace}gamma {
+.#{$tree-headings-namespace}gamma {
     @include tree-font-size($tree-heading-size-3);
 }
 
-.#{$tree-headings-namespace}delta,
-%#{$tree-headings-namespace}delta {
+.#{$tree-headings-namespace}delta {
     @include tree-font-size($tree-heading-size-4);
 }
 
-.#{$tree-headings-namespace}epsilon,
-%#{$tree-headings-namespace}epsilon {
+.#{$tree-headings-namespace}epsilon {
     @include tree-font-size($tree-heading-size-5);
 }
 
-.#{$tree-headings-namespace}zeta,
-%#{$tree-headings-namespace}zeta {
+.#{$tree-headings-namespace}zeta {
     @include tree-font-size($tree-heading-size-6);
 }
