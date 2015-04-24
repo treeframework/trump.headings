@@ -49,3 +49,8 @@ Basic usage of the `headings-trump` module uses the required classes:
 ```html
 <h3 class="u-alpha">...</h3>
 ```
+
+## Credits
+
+* **[inuitcss](https://github.com/inuitcss)** Powerful, Sass-based, OOCSS
+framework designed with scalability and performance in mind.
