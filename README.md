@@ -1,4 +1,4 @@
-# Headings
+# Headings-trump
 
 The `headings-trump` module defines font sizes for heading-related helper
 classes.
