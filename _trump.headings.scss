@@ -37,26 +37,26 @@ $tree-headings-namespace: $tree-namespace !default;
 // Blocks: `u-[alpha|beta|gamma|delta|epsilon|zeta]`
 // =============================================================================
 
-.#{$tree-headings-namespace}alpha {
+.#{$tree-headings-namespace}u-alpha {
     @include tree-font-size($tree-heading-size-1);
 }
 
-.#{$tree-headings-namespace}beta {
+.#{$tree-headings-namespace}u-beta {
     @include tree-font-size($tree-heading-size-2);
 }
 
-.#{$tree-headings-namespace}gamma {
+.#{$tree-headings-namespace}u-gamma {
     @include tree-font-size($tree-heading-size-3);
 }
 
-.#{$tree-headings-namespace}delta {
+.#{$tree-headings-namespace}u-delta {
     @include tree-font-size($tree-heading-size-4);
 }
 
-.#{$tree-headings-namespace}epsilon {
+.#{$tree-headings-namespace}u-epsilon {
     @include tree-font-size($tree-heading-size-5);
 }
 
-.#{$tree-headings-namespace}zeta {
+.#{$tree-headings-namespace}u-zeta {
     @include tree-font-size($tree-heading-size-6);
 }
