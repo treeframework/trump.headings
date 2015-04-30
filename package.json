@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "tree-defaults": "~0.2.5",
-    "tree-headings": "~0.3.1"
+    "tree-headings": "~0.4.0"
   },
   "homepage": "https://github.com/treeframework/trump.headings",
   "keywords": [

@@ -13,6 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "tree-defaults": "~0.2.5",
-    "treeframework-headings": "~0.3.1"
+    "treeframework-headings": "~0.4.0"
   }
 }
